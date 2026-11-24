@@ -583,28 +583,6 @@ button:focus-visible, a:focus-visible, summary:focus-visible {
 .faq-dialog details p { margin: 11px 0 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
 .faq-download { display: inline-flex; margin-top: 12px; color: var(--forest-2); font-size: 14px; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 
-.toast {
-  position: fixed;
-  z-index: 50;
-  right: 24px;
-  bottom: 24px;
-  max-width: min(420px, calc(100vw - 32px));
-  padding: 14px 18px;
-  border: 1px solid rgb(255 255 255 / 22%);
-  border-radius: 12px;
-  background: #123f34;
-  color: #fff;
-  font-size: 14px;
-  line-height: 1.6;
-  box-shadow: 0 14px 34px rgb(13 63 53 / 22%);
-  opacity: 0;
-  transform: translateY(12px);
-  pointer-events: none;
-  transition: opacity 220ms ease, transform 220ms ease;
-}
-
-.toast.is-visible { opacity: 1; transform: translateY(0); }
-
 .js-enabled .reveal { opacity: 0; transform: translateY(22px); transition: opacity 650ms ease, transform 650ms cubic-bezier(.2,.75,.3,1); }
 .js-enabled .reveal.is-visible { opacity: 1; transform: translateY(0); }
 .feature-card:nth-child(2) { transition-delay: 90ms; }

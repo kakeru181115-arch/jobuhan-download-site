@@ -8,9 +8,9 @@ Node.js 18 以降を使い、プロジェクトフォルダーで npm run dev �
 
 ブラウザーで http://127.0.0.1:4173 を開きます。追加パッケージは不要です。
 
-## Windowsインストーラーの配置
+## Windowsインストーラーの配布
 
-このフォルダーには配布用 .exe は含まれていません。最終版を downloads/jobuhan-setup.exe に配置すると、ページ上のダウンロードボタンから配布できます。ファイルが未配置の間は、ボタンを押すと準備中の案内を表示します。
+ページ上のダウンロードボタンは、じょぶはん本体リポジトリの最新GitHub Releaseにある Jobuhan-Setup.exe をダウンロードします。インストーラー本体は [じょぶはんのReleases](https://github.com/nitr0yukkuri/shisukai_koki_egui/releases) で配布するため、このサイトの downloads/ への配置は不要です。
 
 ## 主なファイル
 
